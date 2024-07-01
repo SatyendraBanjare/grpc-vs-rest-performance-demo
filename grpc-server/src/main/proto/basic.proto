@@ -5,6 +5,7 @@ option java_package = "com.satyendra.grpc_server.protomodels";
 
 service getSquare {
   rpc get(requestMsg) returns (responseMsg) {}
+  rpc getStream(requestMsg) returns (stream responseMsg) {}
 }
 
 message requestMsg {
