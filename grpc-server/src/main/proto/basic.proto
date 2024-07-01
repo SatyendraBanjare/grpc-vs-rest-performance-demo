@@ -14,17 +14,3 @@ message requestMsg {
 message responseMsg {
   int32 result = 1;
 }
-  
-
-// message OrderResponse {
-//   int32 orderCode = 1;
-//   repeated Book books = 2;
-// }
-
-// message Book {
-//   int32 code = 1;
-//   string name = 2;
-//   string company = 3;
-//   double price = 4;
-//   int32 pagesNumber = 5;
-// }
